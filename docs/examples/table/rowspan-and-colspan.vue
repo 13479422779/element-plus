@@ -71,7 +71,7 @@ const objectSpanMethod = ({
     if (rowIndex % 2 === 0) {
       return {
         rowspan: 2,
-        colspan: 1,
+        colspan: 2,
       }
     } else {
       return {
